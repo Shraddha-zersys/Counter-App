@@ -1,0 +1,35 @@
+#countLabel {
+  padding-top: 40px;
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  color: #333;
+  margin-bottom: 20px;
+}
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: darkgray;
+}
+
+button {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: rows;
+  align-items: center;
+  justify-content: center;
+}
